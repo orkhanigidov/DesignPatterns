@@ -1,4 +1,4 @@
-package factory.abstractfactory.withenum;
+package factory.withenum;
 
 public enum EnumProduct {
 

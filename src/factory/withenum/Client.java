@@ -1,4 +1,4 @@
-package factory.abstractfactory;
+package factory.withenum;
 
 public class Client {
 
@@ -6,11 +6,11 @@ public class Client {
         try {
             IProduct product;
 
-            product = new ProductFactory().makeProduct("laptop");
+            product = new ProductFactory().makeProduct(EnumProduct.Product_Laptop);
             System.out.println("Product name: " + product.getProductName());
             System.out.println("Serial Number: " + product.getProductSerialNumber());
 
-            product = new ProductFactory().makeProduct("book");
+            product = new ProductFactory().makeProduct(EnumProduct.Product_Book);
             System.out.println("Product name: " + product.getProductName());
             System.out.println("Serial Number: " + product.getProductSerialNumber());
 
