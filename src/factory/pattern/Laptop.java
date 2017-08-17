@@ -1,21 +1,21 @@
-package factory.simple;
+package factory.pattern;
 
 import java.util.Date;
 
-public class Book implements IProduct {
+public class Laptop implements IProduct {
 
-    private String bookName = "Introduction to Machine Learning";
+    private String laptopName = "Sony Vaio";
     private String serialNumber = "";
-    private Date prodcutionDate = null;
+    private Date productionDate = null;
 
-    public Book(String serialNumber) {
+    public Laptop(String serialNumber) {
         this.serialNumber = serialNumber;
-        prodcutionDate = new Date();
+        productionDate = new Date();
     }
 
     @Override
     public String getProductName() {
-        return bookName;
+        return laptopName;
     }
 
     @Override
@@ -25,7 +25,7 @@ public class Book implements IProduct {
 
     @Override
     public Date getProductionDate() {
-        return prodcutionDate;
+        return productionDate;
     }
 
 }

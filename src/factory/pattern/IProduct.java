@@ -1,4 +1,4 @@
-package factory.simple;
+package factory.pattern;
 
 import java.util.Date;
 
