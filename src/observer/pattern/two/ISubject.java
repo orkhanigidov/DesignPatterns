@@ -1,4 +1,4 @@
-package observer.complex;
+package observer.pattern.two;
 
 public interface ISubject {
 	

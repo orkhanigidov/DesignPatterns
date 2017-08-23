@@ -1,4 +1,4 @@
-package observer.complex;
+package observer.pattern.two;
 
 import java.util.ArrayList;
 import java.util.List;

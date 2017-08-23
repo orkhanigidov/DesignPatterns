@@ -1,4 +1,4 @@
-package data.access.object;
+package data.access.object.pattern;
 
 public class Person {
 

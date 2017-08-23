@@ -1,4 +1,4 @@
-package observer.simple;
+package observer.pattern.one;
 
 public class Observer {
 

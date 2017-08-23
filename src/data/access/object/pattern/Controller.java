@@ -1,4 +1,4 @@
-package data.access.object;
+package data.access.object.pattern;
 
 import java.util.List;
 
