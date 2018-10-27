@@ -8,9 +8,8 @@ public class SimpleSingleton {
     }
 
     public static SimpleSingleton getInstance() {
-        if (instance == null) {
+        if (instance == null)
             instance = new SimpleSingleton();
-        }
 
         return instance;
     }
